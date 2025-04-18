@@ -8,7 +8,7 @@ This project automates the main feature of an e-commerce platform using **WebDri
 
 - ✅ Built with WebDriverIO + CucumberJS
 - ✅ Page Object Model (POM) design
-- ✅ Covers both **valid** and **invalid** product search scenarios
+- ✅ Covers both **valid** and **invalid** for scenarios
 - ✅ Runs in **headless mode** by default for faster execution
 
 ## 🛠️ Tech Stack
@@ -32,8 +32,6 @@ _As a user , I want to add products to my cart easily without any problems.
 **Feature:** Apply coupon code
 _As a user , I want to add cupon code so that the website decrease my product cost.
 
-**Feature:** Change quantity or remove from cart
-_As a user , I want to change or remove product from cart easily.
 
 ## 🚀 How to Run the Project
 
