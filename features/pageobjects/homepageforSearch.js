@@ -14,6 +14,7 @@ class HomePage {
         return $('.message.notice');
     }
 
+
     // Open the home page
     async open() {
         await browser.url('https://magento.softwaretestingboard.com/');

@@ -1,5 +1,5 @@
 import { Given, When, Then } from '@wdio/cucumber-framework';
-import HomePage from '../pageobjects/homepage'; 
+import HomePage from '../pageobjects/homepageforSearch'; 
 import { expect } from 'chai';
 
 Given(/^I am on the home page$/, async () => {
