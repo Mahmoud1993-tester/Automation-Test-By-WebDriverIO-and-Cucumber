@@ -40,7 +40,7 @@ _As a user , I want to change or remove product from cart easily.
 
 
 1️⃣ **Clone the Repo**
-git clone https://github.com/username/automation-project-name.git
+git clone https://github.com/Mahmoud1993-tester/Automation-Test-By-WebDriverIO-and-Cucumber.git
 git push -u origin main
 
 
