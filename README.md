@@ -38,8 +38,8 @@ _As a user , I want to add cupon code so that the website decrease my product co
 
 
 1️⃣ **Clone the Repo**
-git clone https://github.com/Mahmoud1993-tester/Automation-Test-By-WebDriverIO-and-Cucumber.git
-git push -u origin main
+```git clone https://github.com/Mahmoud1993-tester/Automation-Test-By-WebDriverIO-and-Cucumber.git```
+```git push -u origin main```
 
 
 2️⃣ **Install Dependencies**
@@ -50,7 +50,7 @@ npx wdio run wdio.conf.js
 
 
 🧱 **Project Structure**
-.
+```text
 project-root/
 │
 ├── features/
@@ -63,6 +63,7 @@ project-root/
 │
 ├── wdio.conf.js
 ├── README.md
+```
 
 👤 **Author**
 **Mahmoud Saber**
