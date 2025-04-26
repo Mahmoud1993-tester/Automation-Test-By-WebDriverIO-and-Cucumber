@@ -3,7 +3,7 @@ class HomePage {
     get searchResults() { return $$('.product-item'); }
 
     async open() {
-        await browser.url('https://magento.softwaretestingboard.com/');
+        await browser.url('/');
     }
 
     async searchForProduct(product) {

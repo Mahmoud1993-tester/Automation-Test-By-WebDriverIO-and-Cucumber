@@ -33,7 +33,7 @@ class HomePage {
     }
 
     async open() {
-        await browser.url('https://magento.softwaretestingboard.com/');
+        await browser.url('/');
     }
 
     async searchAndAddToCart(productName) {

@@ -17,7 +17,7 @@ class HomePage {
 
     // Open the home page
     async open() {
-        await browser.url('https://magento.softwaretestingboard.com/');
+        await browser.url('/');
         await this.searchInput.waitForDisplayed({ timeout: 5000 });
     }
 }

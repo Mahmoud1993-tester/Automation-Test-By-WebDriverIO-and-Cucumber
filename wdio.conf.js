@@ -23,8 +23,10 @@ exports.config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
+    services: ['chromedriver'],
+
     specs: [
-        './features/**/*.feature'
+        './features/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -53,7 +55,7 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome'
+        browserName: 'chrome',
 
     }],
 
@@ -132,9 +134,9 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/*.js'],
+        require: ['./step-definitions/*.js'],
         // <boolean> show full backtrace for errors
-        backtrace: false,
+        backtrace: true,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
         requireModule: [],
         // <boolean> invoke formatters without executing steps
@@ -148,13 +150,13 @@ exports.config = {
         // <boolean> hide source uris
         source: true,
         // <boolean> fail if there are any undefined or pending steps
-        strict: false,
+        strict: true,
         // <string> (expression) only execute the features or scenarios with tags matching the expression
         tagExpression: '',
         // <number> timeout for step definitions
         timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
-        ignoreUndefinedDefinitions: true
+        ignoreUndefinedDefinitions: false
     },
     //
     // =====

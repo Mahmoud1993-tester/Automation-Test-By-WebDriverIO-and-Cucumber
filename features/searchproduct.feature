@@ -12,3 +12,8 @@ Feature: Product Search
       | product     | expectation                      |
       | Hero Hoodie | see results                      |
       | eddd        | Your search returned no results. |
+
+
+
+
+
